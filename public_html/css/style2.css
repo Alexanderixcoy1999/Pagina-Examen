@@ -1,0 +1,36 @@
+body{
+    background: red;
+    
+}
+.contenedor{
+    background: #ccc;
+    
+}
+
+
+
+ .titulo>h1{
+    display: block;
+    width: 100%;
+    height: 75px;
+    background: blue;
+color:white;
+    text-align: center;
+    
+    
+}
+
+.info>h1{
+    float: left;
+      margin-left: 3%;
+    
+}
+.h:after{
+   content: '';
+   width: 100%;
+  height: 5px;
+  background: black;
+  margin: 20px 0;
+    
+    
+}

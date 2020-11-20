@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#ccffff; 
+    font-family:'Open Sans',sans-serif ;
+}
+
+.carrito2>h3{
+   display: block;
+   color:white;
+   background: green;
+    
+}
+.recuadro{
+    display: block;
+    background:red;
+    width: 100%;
+    height: 640px;
+}
+
+.wrap #logo{
+    background:red;
+    width: 100%;
+    margin:0px auto;
+    height: 100px;   
+ text-align: center;
+    text-transform: uppercase;
+    font-family: "Arial Black","Arial";
+    font-size: 50px;
+ 
+   
+    color:white;
+    line-height: 60px;
+}
+
+.wrap{
+    max-width: 1100px;
+    width: 90%;
+    margin:auto;
+}
+.wrap>h1{
+    color:black;
+    font-weight: 400;
+    display:flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 15px 0px;
+    
+}
+.wrap>h1:after{
+   content: '';
+   width: 100%;
+  height: 5px;
+  background: black;
+  margin: 20px 0;
+    
+    
+}
+
+.store-wapper{
+    display: flex;
+    
+    
+}
+.lista-categoria{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    
+}
+
+.lista-categoria .Categoria-item{
+    display:block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: orange;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    
+    
+}
+
+/*PRODUCTO*/
+
+
+.lista-Producto{
+    width: 82%;
+  display: flex;    
+  flex-wrap: wrap;
+  
+}
+
+.lista-Producto .Producto-item img{
+    width: 100%;
+    background: black;
+}
+
+.lista-Producto .Producto-item {
+    width: 22%;
+    margin-left: 3%;
+    
+    background:black;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+}
+
+.lista-Producto .Producto-item a{
+   display:block; 
+    width: 80%;
+    padding: 8px 0;
+    background:red;
+       margin-left: 10%;
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista-Producto .Producto-item> h3{
+ 
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista-Producto .Producto-item> h1{
+ 
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista-Producto .Producto-item> h5{
+ 
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
